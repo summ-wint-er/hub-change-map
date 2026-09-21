@@ -1,0 +1,19 @@
+# GitHub Pages로 공개할 파일만 추적한다 (허용 목록 방식).
+# 원본 Sources(2.7GB), 스크립트, 로그, 문서, 중간 산출물은 올리지 않는다.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+
+!/web/
+/web/*
+!/web/center_change_map.html
+
+!/data/
+/data/*
+!/data/output/
+/data/output/*
+!/data/output/tier_change_2021_2025.geojson
+!/data/output/tier_status_2021.geojson
+!/data/output/tier_status_2025.geojson
+!/data/output/sgg_boundaries_4326.geojson
